@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_centerHorizontal="true"
+        android:text="BILL DETAILS"
+        android:textColor="#00251a"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:layout_margin="50dp"
+        android:layout_width="300dp"
+        android:orientation="vertical"
+        android:layout_below="@+id/title"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="40dp"
+            android:id="@+id/sbn"
+            android:textSize="24dp"
+            android:fontFamily="monospace"
+            android:textColor="#00251a"
+            android:layout_width="200dp"
+            android:layout_height="40dp" />
+        <TextView
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/scn"
+            android:fontFamily="monospace"
+            android:textColor="#00251a"
+            android:layout_width="200dp"
+            android:layout_height="40dp" />
+        <Button
+            android:id="@+id/verifyBtn"
+            android:layout_marginLeft="65dp"
+            android:layout_marginBottom="20sp"
+            android:text="Verify Bill"
+            android:background="@drawable/rectanglebutton"
+            android:layout_marginTop="20dp"
+            android:layout_width="150dp"
+            android:layout_height="50dp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

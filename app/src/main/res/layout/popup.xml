@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:background="#c3fdff"
+        android:layout_height="match_parent"
+        tools:context=".popup"
+        android:orientation="vertical">
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="3dp"
+            app:cardPreventCornerOverlap="false"
+            app:cardUseCompatPadding="true">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:id="@+id/linearLayout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#006064"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="20dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="Bill Details"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="22sp" />
+
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:rotation="45"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="-10dp"
+                    android:background="#006064"/>
+
+
+
+                    <TextView
+                        android:id="@+id/txtError"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="87dp"
+                        android:layout_marginRight="20dp"
+                        android:fontFamily="monospace"
+                        android:text="hello"
+                        android:textColor="#00251a"
+                        android:textSize="32dp" />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="20dp">
+
+                <Button
+                    android:id="@+id/btnCancel"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="40dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:layout_width="99dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="179dp"
+                    android:text="Cancel"
+                    android:textColor="#00251a" />
+
+                <Button
+                    android:id="@+id/btnpay"
+                    android:layout_width="99dp"
+                    android:layout_height="50dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginRight="40dp"
+                    android:text="Pay"
+                    android:textColor="#00251a"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
